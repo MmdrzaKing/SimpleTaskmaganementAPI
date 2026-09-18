@@ -37,7 +37,7 @@ cd SimpleTaskmaganementAPI
 ### Create a virtual environment
 
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 ### Activate it
@@ -45,13 +45,13 @@ python -m venv venv
 Windows
 
 ```bash
-venv\Scripts\activate
+.\.venv\Scripts\activate.ps1
 ```
 
 Linux/macOS
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ### Install dependencies
